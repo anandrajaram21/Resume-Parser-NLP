@@ -121,5 +121,4 @@ st.markdown(f"""
 
 
 
-# Render the HTML content using Streamlit
-st.markdown(html_content, unsafe_allow_html=True)
+
