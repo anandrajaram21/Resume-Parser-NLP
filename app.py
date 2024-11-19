@@ -119,14 +119,7 @@ st.markdown(f"""
     </style>
     """, unsafe_allow_html=True)
 
-# Define the HTML content for the translucent box with LinkedIn links
-html_content = '''
-<div style="border: 2px solid #FFFFFF; padding: 10px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.7); margin-bottom: 20px;">
-    <h2 style="color: white; margin: 0;">LinkedIn Profiles</h2>
-    <p style="color: white;">LinkedIn Profile 1: <a href="www.linkedin.com/in/mahad-zubair-a07709223" style="color: #4CAF50;" target="_blank">www.linkedin.com/in/mahad-zubair-a07709223</a></p>
-    <p style="color: white;">LinkedIn Profile 2: <a href="https://www.linkedin.com/in/shanze-malik-4a04b3256/" style="color: #4CAF50;" target="_blank">https://www.linkedin.com/in/shanze-malik-4a04b3256/</a></p>
-</div>
-'''
+
 
 # Render the HTML content using Streamlit
 st.markdown(html_content, unsafe_allow_html=True)
